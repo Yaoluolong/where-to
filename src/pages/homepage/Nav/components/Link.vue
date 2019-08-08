@@ -21,7 +21,6 @@ export default {
     float left
     text-align center
     width 20%
-    margin 0 auto
     display block
   &-img
     img

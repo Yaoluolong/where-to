@@ -3,9 +3,6 @@
     <div class="link">
       <home-link v-for="(item ,index) of linkList" :key="index" :linkItem="item"></home-link>
     </div>
-    <home-line>
-
-    </home-line>
   </div>
 </template>
 <script>
@@ -137,5 +134,4 @@ export default {
       .nav-img
         img
           width 1rem
-
 </style>
